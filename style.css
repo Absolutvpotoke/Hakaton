@@ -1,0 +1,66 @@
+body {
+  background-color: grey;
+  margin: 0px;
+  padding: 0px;
+  background-color: #121212;
+  overflow-x: hidden;
+
+  box-sizing: border-box;
+}
+header {
+  background-color: #18181c;
+}
+
+.headerp {
+ color: #97979b; /*  колір тексту */
+}
+footer {
+ background-color: #202020; /*  задній фон */
+}
+
+input {
+  margin-left: 470px; /* відступ */
+border: 0px;/*    межа */
+ padding: 10px; /*  відступ */
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #202020; /*  задній фон */
+  line-height: 1; /* розмір */
+  font-family: sans-serif; /* шрифт */
+  font-weight: 400px; /* розмір */
+  font-display: swap; /*показання шрифта */
+  border-radius: 20px; /*заокруглення */
+  color: #97979b; /* колір тексту */
+  display: flex; /* надати флекс */
+  align-items: center; /*відцентрувати */
+}
+p {
+  color: #97979b; /* колір тексту */
+}
+.Search {
+  display: inline; /* в лінію */
+  padding: 20px; /*Внутрішній відступ */
+  font-family: sans-serif; /* шрифт */
+  align-items: center; /*відцентрувати */
+}
+main {
+  text-align: center; /*відцентрувати */
+}
+
+.Mostp {
+  text-decoration: none; /* забрати підкреслення */
+  color: #97979b; /* колір тексту */
+  font-family: sans-serif; /* шрифт */
+  margin: 0%; /*зовнішній відступ */
+  padding: 0%; /*Внутрішній відступ */
+}
+.buttonhover:hover {
+  transform: scaleY(1.5px); /* переміщення */
+}
+.moregame {
+  text-align: center; /*відцентрувати */
+}
+.swap {
+  margin: 0%; /*зовнішній відступ */
+  padding: 0%; /*Внутрішній відступ */
+}
